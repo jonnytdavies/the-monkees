@@ -122,6 +122,91 @@ body {
     overflow-x: hidden;
 }
 
+/*------------------------Audio*/
+
+.latest-release {
+    letter-spacing: 2px;
+    width: auto;
+
+}
+
+.audio-bg {
+    background-color: rgba(246, 47, 47, 1);
+    color: #FFFDE8;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: dotted;
+    -webkit-box-shadow: 0px 0px 26px 2px rgba(246, 47, 47, 1);
+    -moz-box-shadow: 0px 0px 26px 2px rgba(246, 47, 47, 1);
+    box-shadow: 0px 0px 26px 2px rgba(246, 47, 47, 1);
+    text-align: center;
+
+}
+
+/*----------------------------------------Social Icons*/
+
+.social-block {
+    visibility: hidden;
+}
+
+.social-text-upper,
+.social-text-lower,
+.list-inline {
+    text-align: center;
+}
+
+.social-text-upper {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.social-text-lower {
+    margin-top: -10px;
+
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 50px;
+    height: 30px;
+    padding: 10px 0;
+    border-radius: 40% 50% 40% 50% / 30% 70% 30% 70%;
+    font-size: 20px;
+    line-height: 11px;
+    text-align: center;
+    color: #F62F2F;
+    transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -webkit-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: rgba(246, 47, 47, 0.3);
+    color: #FFFDE8;
+
+}
+
+.footer-social-block {
+    visibility: visible;
+    padding: 0;
+}
+
+/*---------------------------------------Footer*/
+
+footer {
+    background-color: #FFFDE8;
+    color: #F62F2F;
+    min-height: 120px;
+    margin: 0;
+}
+
 /*------------------------------Media Queries*/
 
 @media(min-width: 565px) {
@@ -133,18 +218,24 @@ body {
 }
 
 @media(min-width: 768px) {
-    .btn {
+  .btn {
         margin-top: -10px;
     }
-   
+    .social-block {
+        visibility: visible;
+    }
     .menu-bg {
         background-color: #FFFDE8;
         padding: 10px;
         margin-bottom: 0px;
     }
-  
+    .footer-social-block {
+        visibility: hidden;
+    }
 }
 
 @media(min-width: 992px) {
-
+    .footer-social-block {
+        visibility: hidden;
+    }
 }
