@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------colors*/
+
+body {
+    background-color: #FFFDE8;
+    color: #FFFDE8;
+}
+
+.menu-bg-color {
+    background-color: #FFFDE8;
+    color: #F62F2F;
+}
+
+/*---------------------------------header*/
+
+header {
+    margin: 1px;
+    position: relative;
+}
+
+.logo {
+    background: url(/media/band-assets/images/the-monkees-guitar-logo.png);
+    background-color: #FFFDE8;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 230px;
+}
+
+.menu-bg {
+    background-color: #FFFDE8;
+    padding: 10px;
+    margin-bottom: -100px;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menuitem {
+    font-family: "Monoton", sans-serif;
+    text-align: center;
+    padding: 0;
+    margin-right: 10px;
+
+
+}
+
+.menuitem a {
+    width: auto;
+    text-decoration: none;
+    color: #F62F2F;
+    padding-top: 22px;
+    padding-bottom: 15px;
+    display: inline-block;
+    font-size: 30px;
+
+}
+
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+/*-------------------------------Tour Dates Button*/
+
+.btn {
+    margin-top: -10px;
+    margin-bottom: -30px;
+    padding: 10px;
+    display: inline-block;
+    width: auto;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: #F62F2F;
+    color: #FFFDE8;
+    transition: 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn:active:focus {
+    background-color: #FFFDE8;
+    border-color: #F62F2F;
+    color: #F62F2F;
+    -webkit-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
+    -moz-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
+    box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
+    transition: 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+
+/*-----------------------------------General*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "monoton", sans-serif;
+    overflow-x: hidden;
+}
+
+/*------------------------------Media Queries*/
+
+@media(min-width: 565px) {
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media(min-width: 768px) {
+    .btn {
+        margin-top: -10px;
+    }
+   
+    .menu-bg {
+        background-color: #FFFDE8;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+  
+}
+
+@media(min-width: 992px) {
+
+}
