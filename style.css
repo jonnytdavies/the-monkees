@@ -274,41 +274,6 @@ footer,
 }
 
 
-/*------------------------------Media Queries*/
-
-@media(min-width: 565px) {
-    .tour-button {
-        margin-top: 20px;
-        margin-bottom: 0;
-    }
-
-}
-
-@media(min-width: 768px) {
-    .tour-button {
-        margin-top: -10px;
-    }
-    .social-block {
-        visibility: visible;
-    }
-    .menu-bg {
-        background-color: #FFFDE8;
-        padding: 10px;
-        margin-bottom: 0px;
-    }
-    #footer-social-block {
-        visibility: hidden;
-        display: none;
-    }
-}
-
-@media(min-width: 992px) {
-    #footer-social-block {
-        visibility: hidden;
-        display: none;
-    }
-}
-
 .sign-up-container {
     position: relative;
 }
@@ -380,6 +345,43 @@ input[type='email']:focus {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
+
+
+/*------------------------------Media Queries*/
+
+@media(min-width: 565px) {
+    .tour-button {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media(min-width: 768px) {
+    .tour-button {
+        margin-top: -10px;
+    }
+    .social-block {
+        visibility: visible;
+    }
+    .menu-bg {
+        background-color: #FFFDE8;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+    #footer-social-block {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media(min-width: 992px) {
+    #footer-social-block {
+        visibility: hidden;
+        display: none;
+    }
+}
+
 
 @media screen and (max-width: 736px) {
     input[type='email'] {
