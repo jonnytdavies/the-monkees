@@ -83,6 +83,9 @@ header {
     letter-spacing: 1px;
 }
 
+.home-menuitem {
+    margin-left:20px;
+}
 
 /*-------------------------------Tour Dates Button*/
 
@@ -193,6 +196,57 @@ header {
 
 }
 
+/*-----------------------------------About Page*/
+.about-section {
+    color:#FFFDE8;
+    padding-left:10px;
+    background-color:#F62F2F;
+    letter-spacing:1px;
+    width:100%;
+}
+.about-header {
+    background-color: #F62F2F;
+    color:#FFFDE8;
+    text-align:center;
+}
+
+.band-bio {
+    color: #FFFDE8;
+    text-align: center;
+    font-size:15px;
+    letter-spacing:1px;
+}
+
+.band-image {
+    width: 60%;
+    height: auto;
+   
+}
+
+.band-members {
+    text-align: center;
+}
+
+.bio-image {
+    width:60%;
+    height:60%;
+}
+
+
+/*----------------------------------Gallery*/
+.gallery-box {
+    background-color: #F62F2F;
+}
+
+.gallery-image {
+    width:50%;
+    height:auto;
+}
+
+.gallery-header {
+    color:#FFFDE8;
+    text-align: center;
+}
 /*----------------------------------Timeline*/
 
 .tour-box {
@@ -439,6 +493,7 @@ input[type='email']:focus {
     background-color: #FFFDE8;
     color: #F62F2F;
 }
+
 
 #sign-up-button {
     vertical-align: middle;
