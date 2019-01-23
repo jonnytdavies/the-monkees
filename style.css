@@ -42,7 +42,6 @@ header {
 .menu-bg {
     background-color: #FFFDE8;
     padding: 10px;
-    margin-bottom: -100px;
 }
 
 #nav {
@@ -238,15 +237,19 @@ header {
     background-color: #F62F2F;
 }
 
-.gallery-image {
-    width:50%;
-    height:auto;
-}
-
 .gallery-header {
     color:#FFFDE8;
     text-align: center;
 }
+
+.gallery-image {
+    width:40%;
+    height:auto;
+    padding:5px;
+    text-align: center;
+}
+
+
 /*----------------------------------Timeline*/
 
 .tour-box {
@@ -540,6 +543,13 @@ input[type='email']:focus {
         margin-bottom: 0;
     }
 
+}
+
+@media(max-width: 767px) {
+    .social-block {
+        visibility: hidden;
+        display:none;
+    }
 }
 
 @media(min-width: 768px) {
