@@ -15,7 +15,7 @@ body {
 /*-----------------------------------General*/
 
 body {
-    margin: 0;
+    margin: 0!important;
     padding: 0;
     font-family: "Monoton", sans-serif;
     overflow-x: hidden;
@@ -32,7 +32,6 @@ header {
 
 .logo {
     background: url(/media/band-assets/images/the-monkees-guitar-logo.png);
-   
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto;
@@ -85,6 +84,29 @@ header {
 .home-menuitem {
     margin-left:20px;
 }
+
+/*-------------------------------Contact Page*/
+
+.contact-page {
+    background-color: #F62F2F;
+    color: #FFFDE8;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+form {
+    background-color: #FFFDE8;
+    color: #F62F2F;
+    border-radius: 10px;
+    padding: 20px;
+   
+}
+
+
 
 /*-------------------------------Tour Dates Button*/
 
@@ -390,9 +412,6 @@ footer,
     text-align: center;
 }
 
-
-.contact-button-container {}
-
 .contact-us-button {
     vertical-align: middle;
     margin-top: 10px;
@@ -475,12 +494,15 @@ footer,
     font-size: 16px;
 }
 
-input[type='email'] {
+input[type='name'],
+input[type='email'],
+textarea[type='textarea']{
     background-color: #F62F2F;
     outline: none;
     display: inline-block;
-    width: 60%;
+    width: 100%;
     padding: 10px;
+    margin:2px;
     border: 2px solid transparent;
     border-radius: 5px;
     color: #FFFDE8;
@@ -489,21 +511,35 @@ input[type='email'] {
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
     font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
 }
 
-input[type='email']:focus {
-    border: 1px dashed #F62F2F;
+input[type='name']:focus,
+input[type='email']:focus,
+textarea[type='textarea']:focus {
+    border: 1px solid #F62F2F;
     background-color: #FFFDE8;
     color: #F62F2F;
+    font-family: sans-serif;
+    font-weight: 700;
 }
 
+input::placeholder {
+    color:#FFFDE8;
+}
 
+.footer-email {
+    width:60%!important;
+}
+
+#submit-button,
 #sign-up-button {
     vertical-align: middle;
     margin: 10px;
     padding: 10px;
     display: inline-block;
-    width: 33%;
+   
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
@@ -518,6 +554,10 @@ input[type='email']:focus {
     -o-transition: all 0.3s ease-in-out;
 }
 
+#submit-button:hover,
+#submit-button:active,
+#submit-button:focus,
+#submit-button:active:focus,
 #sign-up-button:hover,
 #sign-up-button:active,
 #sign-up-button:focus,
@@ -533,7 +573,6 @@ input[type='email']:focus {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
-
 
 /*------------------------------Media Queries*/
 
@@ -589,8 +628,8 @@ input[type='email']:focus {
 
 
 @media screen and (max-width: 736px) {
-    input[type='email'] {
+    .footer-email {
         display: block;
-        width: 100%;
+        width: 100%!important;
     }
 }

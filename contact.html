@@ -62,7 +62,23 @@
                 </div>
             </div>
     </header>
-    <section>
+    <section class="container-fluid contact-page">
+        <h1 class="contact-heading">Contact Us</h1>
+        <h2 class="contact-heading">Book us for your private function!</h2>
+        <div class="contact-form">
+            <h3 class="contact-heading">Fill out the form below to enquire about booking us for your event</h3>
+            <form action="/action_page.php" method="post">
+                <label for="name">Name</label>
+                <input type="name" id="name" name="Name" required/>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" required/>
+                <label for="enquiry">Enquiry</label>
+                <textarea type="textarea" id="enquiry" name="enquiry" required></textarea>
+                <input id="submit-button" class="btn" type="submit" value="Submit">
+            </form>
+
+        </div>
+
         <!------- Main Website content ------>
     </section>
     <footer class="container-fluid">
@@ -72,38 +88,29 @@
 
 
             <div class="row">
-                <div class="contact-button-container col-xs-12 col-sm-6">
-                    <a href="contact.html">
-                        <div class="contact-button">
-                            <button type="button" class="btn contact-us-button menuitem btn-dark">Contact Us</button>
-                        </div>
-                    </a>
-                </div>
+
                 <!-------- Footer Social ----->
-                <div class="col-xs-12 col-sm-4">
-                    <div id="footer-social-block">
-                        <h5 class="uppercase social-text-upper">Follow Us</h5>
-                        <ul class="list-inline footer-social-links">
-                            <li><a target="_blank" href="https://en-gb.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="https://twitter.com/themonkees"><i class="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="fa fa-youtube"></i></a></li>
-                        </ul>
-                        <h6 class="uppercase social-text-lower">To see our latest news</h6>
-                    </div>
+
+                <div id="footer-social-block">
+                    <h5 class="uppercase social-text-upper">Follow Us</h5>
+                    <ul class="list-inline footer-social-links">
+                        <li><a target="_blank" href="https://en-gb.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://twitter.com/themonkees"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                    <h6 class="uppercase social-text-lower">To see our latest news</h6>
                 </div>
+
                 <!-----------Newsletter sign up  ---->
-                <div class="col-xs-12 col-sm-6">
-                    <div id="sign-up-form">
-                        <p>Sign up to recieve our monthly newsletter now!</p>
-                         <form action="https://the-monkees-milestone-project-1-jonnytdavies.c9users.io/action_page.php" method="post">
-                            <input type="email" name="email" placeholder="Email"></input>
-                            <input id="sign-up-button" class="btn" type="submit" value="Submit">
-                        </form>
-                    </div>
+
+                <div id="sign-up-form">
+                    <p>Sign up to recieve our monthly newsletter now!</p>
+                    <form action="/action_page.php" method="post">
+                        <input class="footer-email" type="email" name="email" placeholder="Email"></input>
+                        <input id="sign-up-button" class="btn" type="submit" value="Sign Up">
+                    </form>
                 </div>
-
             </div>
-
         </div>
     </footer>
 </body>
