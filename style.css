@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--------------------------------colors*/
+/*--------------------------------General colors*/
 
 body {
     background-color: #FFFDE8;
@@ -138,6 +138,7 @@ form {
     color: #F62F2F;
     -webkit-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
     -moz-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
+    -o-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
     box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
     transition: 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -146,7 +147,7 @@ form {
 }
 
 
-/*------------------------Audio*/
+/*------------------------Header Audio*/
 
 .latest-release {
     letter-spacing: 2px;
@@ -165,6 +166,7 @@ form {
     border-style: dotted;
     -webkit-box-shadow: 0px 0px 26px 2px rgba(246, 47, 47, 1);
     -moz-box-shadow: 0px 0px 26px 2px rgba(246, 47, 47, 1);
+    -o-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
     box-shadow: 0px 0px 26px 2px rgba(246, 47, 47, 1);
     text-align: center;
 
@@ -412,6 +414,8 @@ footer,
     text-align: center;
 }
 
+/* --------------------------Contact Button*/
+
 .contact-us-button {
     vertical-align: middle;
     margin-top: 10px;
@@ -449,6 +453,8 @@ footer,
     -o-transition: all 0.3s ease-in-out;
 }
 
+/*----------------------------Footer Social Icons------*/
+
 
 #footer-social-block {
     visibility: visible;
@@ -479,6 +485,7 @@ footer,
 
 }
 
+/*-------------------------------Email Sign Up -------*/
 
 .sign-up-container {
     position: relative;
