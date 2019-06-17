@@ -215,7 +215,7 @@ form {
 }
 
 .social-links li a i:hover {
-    background-color: rgba(246, 47, 47, 0.3);
+    background-color: rgba(246, 47, 47, 1);
     color: #FFFDE8;
 
 }
@@ -481,7 +481,7 @@ footer,
 }
 
 .footer-social-links li a i:hover {
-    background-color: rgba(255, 253, 232, 1);
+    background-color: rgba(246, 47, 47, 1);
     color: #FFFDE8;
 
 }
