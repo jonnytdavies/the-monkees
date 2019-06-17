@@ -19,9 +19,16 @@ body {
     padding: 0;
     font-family: "Monoton", sans-serif;
     overflow-x: hidden;
+    word-spacing: 5px;
 }
 
 
+
+/* --------------------------------Button Word Spacing */
+
+button, .btn {
+    word-spacing: 5px;
+}
 
 /*---------------------------------header*/
 
