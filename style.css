@@ -262,10 +262,19 @@ form {
     letter-spacing:1px;
 }
 
+.band-image-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .band-image {
     width: 60%;
     height: auto;
    
+}
+
+.band-member-photos {
+    margin-bottom: 10px;
 }
 
 .band-members {
@@ -296,7 +305,7 @@ form {
 }
 
 
-/*----------------------------------Timeline*/
+/*----------------------------------Timeline-----------(Inspiration for timeline design and code came from the User Centric Frontend Development Module)*/
 
 .tour-box {
     background-color: #F62F2F;
