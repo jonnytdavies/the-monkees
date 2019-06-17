@@ -96,6 +96,7 @@ header {
 
 .contact-heading {
     text-align: center;
+    text-transform: uppercase;
 }
 
 form {
