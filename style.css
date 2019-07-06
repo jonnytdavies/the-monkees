@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Monoton:300,400,500,700');
 
 /*--------------------------------General colors*/
 
@@ -14,19 +14,33 @@ body {
 
 /*-----------------------------------General*/
 
+html,
 body {
-    margin: 0!important;
-    padding: 0;
-    font-family: "Monoton", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
     overflow-x: hidden;
+    font-family: "Monoton", sans-serif;
     word-spacing: 5px;
 }
 
 
+.rounded-corners {
+    /*Rounds the corners of containers*/
+    border-radius: 25px;
+}
+
+img {
+    /*Image Border*/
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFFDE8;
+}
 
 /* --------------------------------Button Word Spacing */
 
-button, .btn {
+.btn {
     word-spacing: 5px;
 }
 
@@ -38,7 +52,7 @@ header {
 }
 
 .logo {
-    background: url(/media/band-assets/images/the-monkees-guitar-logo.png);
+    background: url(media/band-assets/images/the-monkees-guitar-logo.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto;
@@ -46,6 +60,7 @@ header {
 }
 
 .menu-bg {
+    margin-top: 40px;
     background-color: #FFFDE8;
     padding: 10px;
 }
@@ -69,8 +84,6 @@ header {
     width: auto;
     text-decoration: none;
     color: #F62F2F;
-    padding-top: 22px;
-    padding-bottom: 15px;
     display: inline-block;
     font-size: 30px;
 
@@ -81,15 +94,10 @@ header {
     display: block;
     width: 100%;
     padding-top: 5px;
-    text-align: left;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 1px;
-}
-
-.home-menuitem {
-    margin-left:20px;
 }
 
 /*-------------------------------Contact Page*/
@@ -97,8 +105,7 @@ header {
 .contact-page {
     background-color: #F62F2F;
     color: #FFFDE8;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding: 15px;
 }
 
 .contact-heading {
@@ -110,27 +117,34 @@ form {
     background-color: #FFFDE8;
     color: #F62F2F;
     border-radius: 10px;
-    padding: 20px;
-   
+    width: 100%;
+    margin: auto;
 }
 
+.contact-form {
+    padding: 20px;
+    width: 60%;
+}
 
+.contact-page-sign-up-form {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+/* -------- EXTRA CONTACT FORM STYLING LINKED TO 'EMAIL SIGN UP' -----*/
 
 /*-------------------------------Tour Dates Button*/
 
 .tour-button {
-    margin-top: -10px;
-    margin-bottom: -30px;
     padding: 10px;
-    display: inline-block;
-    width: auto;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 1px;
     background-color: #F62F2F;
-    color: #FFFDE8;
+    color: #FFFDE8!important;
     transition: 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -143,11 +157,11 @@ form {
 .tour-button:active:focus {
     background-color: #FFFDE8;
     border-color: #F62F2F;
-    color: #F62F2F;
-    -webkit-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
-    -moz-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
-    -o-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
-    box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
+    color: #F62F2F!important;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(246, 47, 47, 1);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(246, 47, 47, 1);
+    -o-box-shadow: 0px 0px 15px 1px rgba(246, 47, 47, 1);
+    box-shadow: 0px 0px 15px 1px rgba(246, 47, 47, 1);
     transition: 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -170,12 +184,6 @@ form {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 5px;
-    border-width: 1px;
-    border-style: dotted;
-    -webkit-box-shadow: 0px 0px 26px 2px rgba(246, 47, 47, 1);
-    -moz-box-shadow: 0px 0px 26px 2px rgba(246, 47, 47, 1);
-    -o-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
-    box-shadow: 0px 0px 26px 2px rgba(246, 47, 47, 1);
     text-align: center;
 
 }
@@ -193,7 +201,7 @@ form {
 }
 
 .social-text-upper {
-    margin-top: 10px;
+    margin-top: 25px;
     margin-bottom: 5px;
 }
 
@@ -228,38 +236,40 @@ form {
 }
 
 /*-----------------------------------About Page*/
+
 .about-section {
-    color:#FFFDE8;
-    padding-left:10px;
-    background-color:#F62F2F;
-    letter-spacing:1px;
-    width:100%;
-}
-.about-header {
+    color: #FFFDE8;
     background-color: #F62F2F;
-    color:#FFFDE8;
-    text-align:center;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
+.about-header {
+    text-align: center;
     margin-bottom: 10px;
 }
 
+.bio-padding {
+    padding: 10px;
+}
+
 .band-bio-box {
-    border-radius: 25px;
-    border-width: 2px;
+    border-radius: 10px;
+    border-width: 1px;
     border-color: #FFFDE8;
     border-style: solid;
     padding: 15px;
-    margin:10px;
-     -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 253, 232, 1);
-    -moz-box-shadow: 0px 0px 10px 5px rgba(255, 253, 232, 1);
-    -o-box-shadow: 0px 0px 10px 5px rgba(255, 253, 232, 1);
-    box-shadow: 0px 0px 10px 5px rgba(255, 253, 232, 1);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 253, 232, 0.5);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(255, 253, 232, 0.5);
+    -o-box-shadow: 0px 0px 10px 5px rgba(255, 253, 232, 0.5);
+    box-shadow: 0px 0px 10px 5px rgba(255, 253, 232, 0.5);
 }
 
 .band-bio {
     color: #FFFDE8;
     text-align: center;
-    font-size:15px;
-    letter-spacing:1px;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 .band-image-title {
@@ -268,9 +278,10 @@ form {
 }
 
 .band-image {
-    width: 60%;
+    width: 90%;
     height: auto;
-   
+    margin: auto;
+    display: block;
 }
 
 .band-member-photos {
@@ -282,37 +293,37 @@ form {
 }
 
 .bio-image {
-    width:60%;
-    height:60%;
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
 }
 
-
 /*----------------------------------Gallery*/
+
 .gallery-box {
     background-color: #F62F2F;
 }
 
 .gallery-header {
-    color:#FFFDE8;
+    color: #FFFDE8;
     text-align: center;
 }
 
 .gallery-image {
-    width:40%;
-    height:auto;
-    padding:5px;
-    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    margin-left: 50px;
 }
 
+.gallery-audio {
+    margin-left: 20px;
+}
 
-/*----------------------------------Timeline-----------(Inspiration for timeline design and code came from the User Centric Frontend Development Module)*/
+/*-------------------Timeline-----------(Inspiration for timeline design and code came from the User Centric Frontend Development Module)*/
 
 .tour-box {
     background-color: #F62F2F;
-    border-top-style: dashed;
-    border-bottom-style: dashed;
-    border-width: 1px;
-    margin-right: -20px;
 }
 
 .timeline-item {
@@ -408,7 +419,7 @@ form {
     color: #F62F2F;
     -webkit-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
     -moz-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
-    -o-box-shadow:9px 9px 40px -10px rgba(246, 47, 47, 1);
+    -o-box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
     box-shadow: 9px 9px 40px -10px rgba(246, 47, 47, 1);
     transition: 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -441,8 +452,7 @@ footer,
     background-color: #FFFDE8;
     color: #F62F2F;
     height: auto;
-    background-size: auto;
-
+    /* background-size: auto; */
     text-align: center;
 }
 
@@ -454,7 +464,7 @@ footer,
     padding-top: 10px;
     padding-bottom: 10px;
     display: inline-block;
-    width: 100%;
+    width: 60%;
     height: 100%;
     text-align: center;
     text-transform: uppercase;
@@ -478,7 +488,8 @@ footer,
     color: #F62F2F;
     -webkit-box-shadow: 9px 9px 40px -10px rgba(255, 253, 232, 1);
     -moz-box-shadow: 9px 9px 40px -10px rgba(255, 253, 232, 1);
-    -o-box-shadow: 9px 9px 40px -10px rgba(255, 253, 232, 1);;
+    -o-box-shadow: 9px 9px 40px -10px rgba(255, 253, 232, 1);
+    ;
     box-shadow: 9px 9px 40px -10px rgba(255, 253, 232, 1);
     transition: 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -487,7 +498,6 @@ footer,
 }
 
 /*----------------------------Footer Social Icons------*/
-
 
 #footer-social-block {
     visibility: visible;
@@ -524,25 +534,25 @@ footer,
     position: relative;
 }
 
-#sign-up-form {
+.sign-up-form {
     background-color: #FFFDE8;
-    padding: 10px;
+    margin-bottom: 15px;
 }
 
-#sign-up-form p {
+.sign-up-form p {
     font-weight: 300;
     font-size: 16px;
 }
 
 input[type='name'],
 input[type='email'],
-textarea[type='textarea']{
+textarea[type='textarea'] {
     background-color: #F62F2F;
     outline: none;
     display: inline-block;
     width: 100%;
     padding: 10px;
-    margin:2px;
+    margin: 2px;
     border: 2px solid transparent;
     border-radius: 5px;
     color: #FFFDE8;
@@ -566,20 +576,18 @@ textarea[type='textarea']:focus {
 }
 
 input::placeholder {
-    color:#FFFDE8;
+    color: #FFFDE8;
 }
 
 .footer-email {
-    width:60%!important;
+    width: 50%;
 }
 
 #submit-button,
 #sign-up-button {
     vertical-align: middle;
-    margin: 10px;
     padding: 10px;
     display: inline-block;
-   
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
@@ -607,7 +615,7 @@ input::placeholder {
     color: #F62F2F;
     -webkit-box-shadow: 9px 9px 40px -10px rgba(255, 253, 232, 1);
     -moz-box-shadow: 9px 9px 40px -10px rgba(255, 253, 232, 1);
-    -o-box-shadow:9px 9px 40px -10px rgba(255, 253, 232, 1);
+    -o-box-shadow: 9px 9px 40px -10px rgba(255, 253, 232, 1);
     box-shadow: 9px 9px 40px -10px rgba(255, 253, 232, 1);
     transition: 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -619,22 +627,35 @@ input::placeholder {
 
 @media(min-width: 565px) {
     .tour-button {
-        margin-top: 20px;
         margin-bottom: 0;
     }
 
 }
 
 @media(max-width: 767px) {
+    .menuitem {
+        margin: 0px;
+    }
+    .tour-button {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
     .social-block {
         visibility: hidden;
-        display:none;
+        display: none;
     }
+    .contact-heading {
+        font-size: 20px;
+    }
+    form {
+        width: 100%;
+    }
+
 }
 
 @media(min-width: 768px) {
     .tour-button {
-        margin-top: -10px;
+        margin-top: -11px;
     }
     .social-block {
         visibility: visible;
@@ -665,12 +686,23 @@ input::placeholder {
         visibility: hidden;
         display: none;
     }
+    .band-image-title {
+        margin-top: -20px;
+    }
+}
+
+
+@media(max-width: 991px) {
+    .menuitem {
+        text-align: center;
+    }
 }
 
 
 @media screen and (max-width: 736px) {
     .footer-email {
         display: block;
-        width: 100%!important;
+        width: 100%;
     }
+
 }

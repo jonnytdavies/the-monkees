@@ -13,7 +13,7 @@
 
 <body>
     <!----------- Header ----------->
-    <header class="container-fluid">
+    <header class="container">
         <div class="row">
             <a href="index.html">
                 <div class="col-xs-12 col-sm-12 col-md-4 logo hvr-grow-rotate"></div>
@@ -35,17 +35,17 @@
                             <a href="contact.html" class="hvr-rotate"><span>Contact</span></a>
                         </li>
                         <li class="col-sm-2 col-md-2 menuitem">
-                            <a href="tour.html"><button type="button" class="btn tour-button btn-dark hvr-grow">Tour Dates</button></a>
+                            <a href="tour.html" class="btn tour-button hvr-grow"><span>Tour Dates</span></a>
                         </li>
                     </ul>
                     <div class="row">
-                        <!-----------Audio------------->
+                        <!-----------Audio------Monkees Latest Single------->
                         <div class="audio-bg col-xs-12 col-sm-8 col-md-8">
                             <div class="latest-release">
                                 <p>Our Latest Single:</p>
                             </div>
                             <audio controls controlslist="nodownload">
-                            <source src="/media/band-assets/audio/ImABeliever.mp3" type="audio/mpeg">
+                            <source src="media/band-assets/audio/ImABeliever.mp3" type="audio/mpeg">
                         </audio>
                         </div>
                         <!-----------Header Social Icons------------>
@@ -61,86 +61,83 @@
                     </div>
                 </div>
             </div>
+        </div>
     </header>
     <!----------------Tour Dates------------------(Inspiration for timeline design and code came from the User Centric Frontend Development Module)------>
-    <section class="container-fluid tour-box col-md-12">
-        <div class="tour-dates-heading">
-            <h1>Tour Dates:</h1>
-        </div>
-        <div class="tour-details" class="row">
-            <div class="row">
-                <div class="tour-items col-md-12">
-                    <div class="row">
-                        <div class="timeline-item col-xs-6 col-sm-6 col-md-6" dates="9th March '19">
-                            <h4 class="tour-location">New York, NY</h4>
-                            <p class="arena-name">Beacon Theatre</p>
+    <main class="container">
+        <section class="tour-box col-md-12">
+            <div class="tour-dates-heading">
+                <h1>Tour Dates:</h1>
+            </div>
+            <div class="tour-details" class="row">
+                <div class="row">
+                    <div class="tour-items col-md-12">
+                        <div class="row">
+                            <div class="timeline-item col-xs-6 col-sm-6 col-md-6" dates="9th March '19">
+                                <h4 class="tour-location">New York, NY</h4>
+                                <p class="arena-name">Beacon Theatre</p>
+                            </div>
+                            <div class="col-md-6"><a target="_blank" href="https://www.ticketmaster.com/The-Monkees-tickets/artist/735678" class="btn book-now-button">Book Now</a></div>
                         </div>
-                        <div class="col-md-6"><a target="_blank" href="https://www.ticketmaster.com/The-Monkees-tickets/artist/735678"><button class="book-now-button">Book Now</button></a></div>
-                    </div>
-                    <div class="row">
-                        <div class="timeline-item col-xs-6 col-sm-6 col-md-6" dates="8th June '19">
-                            <h4 class="tour-location">Christchurch, New Zealand</h4>
-                            <p class="arena-name">Isaac Theatre Royal</p>
+                        <div class="row">
+                            <div class="timeline-item col-xs-6 col-sm-6 col-md-6" dates="8th June '19">
+                                <h4 class="tour-location">Christchurch, New Zealand</h4>
+                                <p class="arena-name">Isaac Theatre Royal</p>
+                            </div>
+                            <div class="col-md-6"><a target="_blank" href="https://www.ticketmaster.com/The-Monkees-tickets/artist/735678" class="btn book-now-button">Book Now</a></div>
                         </div>
-                        <div class="col-md-6"><a target="_blank" href="https://www.ticketmaster.com/The-Monkees-tickets/artist/735678"><button class="book-now-button">Book Now</button></a></div>
-                    </div>
-                    <div class="row">
-                        <div class="timeline-item col-xs-6 col-sm-6 col-md-6" dates="9th June '19">
-                            <h4 class="tour-location">Auckland, New Zealand</h4>
-                            <p class="arena-name">Auckland Town Hall</p>
+                        <div class="row">
+                            <div class="timeline-item col-xs-6 col-sm-6 col-md-6" dates="9th June '19">
+                                <h4 class="tour-location">Auckland, New Zealand</h4>
+                                <p class="arena-name">Auckland Town Hall</p>
+                            </div>
+                            <div class="col-md-6"><a target="_blank" href="https://www.ticketmaster.com/The-Monkees-tickets/artist/735678" class="btn book-now-button">Book Now</a></div>
                         </div>
-                        <div class="col-md-6"><a target="_blank" href="https://www.ticketmaster.com/The-Monkees-tickets/artist/735678"><button class="book-now-button">Book Now</button></a></div>
-                    </div>
-                    <div class="row">
-                        <div class="timeline-item col-xs-6 col-sm-6 col-md-6" dates="10th June '19">
-                            <h4 class="tour-location">Wellington, New Zealand</h4>
-                            <p class="arena-name">Michael Fowler Centre</p>
+                        <div class="row">
+                            <div class="timeline-item col-xs-6 col-sm-6 col-md-6" dates="10th June '19">
+                                <h4 class="tour-location">Wellington, New Zealand</h4>
+                                <p class="arena-name">Michael Fowler Centre</p>
+                            </div>
+                            <div class="col-md-6"><a target="_blank" href="https://www.ticketmaster.com/The-Monkees-tickets/artist/735678" class="btn book-now-button">Book Now</a></div>
                         </div>
-                        <div class="col-md-6"><a target="_blank" href="https://www.ticketmaster.com/The-Monkees-tickets/artist/735678"><button class="book-now-button">Book Now</button></a></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <footer class="container-fluid">
-        <div class="footer-bg">
+        </section>
+    </main>
+    <!------- Footer ---------->
 
-            <!----- Footer Contact Page Link ------>
-
-
-            <div class="row">
-                <div class="contact-button-container col-xs-12 col-sm-6">
-                    <a href="contact.html">
-                        <div class="contact-button">
-                            <button type="button" class="btn contact-us-button menuitem btn-dark">Contact Us</button>
-                        </div>
-                    </a>
-                </div>
-                <!-------- Footer Social ----->
-                <div class="col-xs-12 col-sm-4">
-                    <div id="footer-social-block">
-                        <h5 class="uppercase social-text-upper">Follow Us</h5>
-                        <ul class="list-inline footer-social-links">
-                            <li><a target="_blank" href="https://en-gb.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="https://twitter.com/themonkees"><i class="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="fa fa-youtube"></i></a></li>
-                        </ul>
-                        <h6 class="uppercase social-text-lower">To see our latest news</h6>
-                    </div>
-                </div>
-                <!-----------Newsletter sign up  ---->
-                <div class="col-xs-12 col-sm-6">
-                    <div id="sign-up-form">
-                        <p>Sign up to recieve our monthly newsletter now!</p>
-                       <form target="_blank" action="/action_page.php" method="post">
-                            <input class="footer-email" type="email" name="email" placeholder="Email" required></input>
-                            <input id="sign-up-button" class="btn" type="submit" value="Sign Up">
-                        </form>
-                    </div>
-                </div>
-
+    <footer class="container footer-bg">
+        <!----- Footer Contact Page Link ------>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                <a href="contact.html" class="btn contact-us-button btn-dark">Contact Us</a>
             </div>
+            <!-------- Footer Social ----->
+            <div class="col-xs-12 col-sm-4">
+                <div id="footer-social-block">
+                    <h5 class="uppercase social-text-upper">Follow Us</h5>
+                    <ul class="list-inline footer-social-links">
+                        <li><a target="_blank" href="https://en-gb.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://twitter.com/themonkees"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                    <h6 class="uppercase social-text-lower">To see our latest news</h6>
+                </div>
+            </div>
+            <!-----------Newsletter sign up  ---->
 
+            <div class="sign-up-form col-xs-12 col-sm-7">
+                <p>Sign up to receive our monthly newsletter now!</p>
+                <form target="_blank" action="action_page.php" method="post">
+                    <div class="col-xs-12 col-sm-8">
+                        <input class="footer-email" type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <input id="sign-up-button" class="btn" type="submit" value="Sign Up">
+                    </div>
+                </form>
+            </div>
         </div>
     </footer>
 </body>

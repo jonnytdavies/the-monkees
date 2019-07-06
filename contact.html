@@ -13,7 +13,7 @@
 
 <body>
     <!----------- Header ----------->
-    <header class="container-fluid">
+    <header class="container">
         <div class="row">
             <a href="index.html">
                 <div class="col-xs-12 col-sm-12 col-md-4 logo hvr-grow-rotate"></div>
@@ -35,17 +35,17 @@
                             <a href="contact.html" class="hvr-rotate"><span>Contact</span></a>
                         </li>
                         <li class="col-sm-2 col-md-2 menuitem">
-                            <a href="tour.html"><button type="button" class="btn tour-button btn-dark hvr-grow">Tour Dates</button></a>
+                            <a href="tour.html" class="btn tour-button hvr-grow"><span>Tour Dates</span></a>
                         </li>
                     </ul>
                     <div class="row">
-                        <!-----------Audio------------->
+                        <!-----------Audio------Monkees Latest Single------->
                         <div class="audio-bg col-xs-12 col-sm-8 col-md-8">
                             <div class="latest-release">
                                 <p>Our Latest Single:</p>
                             </div>
                             <audio controls controlslist="nodownload">
-                            <source src="/media/band-assets/audio/ImABeliever.mp3" type="audio/mpeg">
+                            <source src="media/band-assets/audio/ImABeliever.mp3" type="audio/mpeg">
                         </audio>
                         </div>
                         <!-----------Header Social Icons------------>
@@ -61,13 +61,15 @@
                     </div>
                 </div>
             </div>
+        </div>
     </header>
-    <section class="container-fluid contact-page">
-        <h1 class="contact-heading">Contact Us</h1>
-        <h2 class="contact-heading">Book us for your private function!</h2>
-        <div class="contact-form">
+    <!------- Contact Form ------>
+    <main class="container">
+        <section class="contact-page">
+            <h1 class="contact-heading">Contact Us</h1>
+            <h2 class="contact-heading">Book us for your private function!</h2>
             <h3 class="contact-heading">Fill out the form below to enquire about booking us for your event</h3>
-            <form target="_blank" action="/action_page.php" method="post">
+            <form class="contact-form" target="_blank" action="/action_page.php" method="post">
                 <label for="name">Name</label>
                 <input type="name" id="name" name="Name" required/>
                 <label for="email">Email</label>
@@ -76,21 +78,12 @@
                 <textarea type="textarea" id="enquiry" name="enquiry" required></textarea>
                 <input id="submit-button" class="btn" type="submit" value="Submit">
             </form>
-
-        </div>
-
-        <!------- Main Website content ------>
-    </section>
-    <footer class="container-fluid">
+        </section>
+    </main>
+    <footer class="container">
         <div class="footer-bg">
-
-            <!----- Footer Contact Page Link ------>
-
-
             <div class="row">
-
                 <!-------- Footer Social ----->
-
                 <div id="footer-social-block">
                     <h5 class="uppercase social-text-upper">Follow Us</h5>
                     <ul class="list-inline footer-social-links">
@@ -100,13 +93,11 @@
                     </ul>
                     <h6 class="uppercase social-text-lower">To see our latest news</h6>
                 </div>
-
                 <!-----------Newsletter sign up  ---->
-
-                <div id="sign-up-form">
-                    <p>Sign up to recieve our monthly newsletter now!</p>
-                    <form target="_blank" action="/action_page.php" method="post">
-                        <input class="footer-email" type="email" name="email" placeholder="Email" required></input>
+                <div class="contact-page-sign-up-form">
+                    <p>Sign up to receive our monthly newsletter now!</p>
+                    <form target="_blank" action="action_page.php" method="post">
+                        <input class="footer-email" type="email" name="email" placeholder="Email" required>
                         <input id="sign-up-button" class="btn" type="submit" value="Sign Up">
                     </form>
                 </div>
