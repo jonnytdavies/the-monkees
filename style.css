@@ -85,13 +85,11 @@ header {
     text-decoration: none;
     color: #F62F2F;
     display: inline-block;
-    font-size: 30px;
-
 }
 
 
 .menuitem span {
-    display: block;
+    display: inline-block;
     width: 100%;
     padding-top: 5px;
     text-transform: uppercase;
@@ -182,7 +180,6 @@ form {
     color: #FFFDE8;
     padding: 10px;
     margin-bottom: -15px;
-    margin-top: 5px;
     border-radius: 5px;
     text-align: center;
 }
@@ -200,7 +197,7 @@ form {
 }
 
 .social-text-upper {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 5px;
 }
 
@@ -600,7 +597,7 @@ input::placeholder {
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
     text-decoration: none;
@@ -645,6 +642,9 @@ input::placeholder {
     .contact-form {
         width: 100%!important;
     }
+    .menuitem span {
+        font-size: 12px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -659,14 +659,28 @@ input::placeholder {
         visibility: hidden;
         display: none;
     }
-    .contact-heading {
-        font-size: 20px;
-    }
     form {
         width: 100%;
     }
     .contact-form {
         width: 90%;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .sign-up-form p,
+    .band-bio {
+        font-size: 12px;
+    }
+    #submit-button,
+    #sign-up-button {
+        font-size: 12px;
     }
 }
 
