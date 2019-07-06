@@ -181,11 +181,10 @@ form {
     background-color: rgba(246, 47, 47, 1);
     color: #FFFDE8;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: -15px;
     margin-top: 5px;
     border-radius: 5px;
     text-align: center;
-
 }
 
 /*----------------------------------------Social Icons*/
@@ -312,12 +311,23 @@ form {
 .gallery-image {
     width: 200px;
     height: 200px;
-    margin: 5px;
-    margin-left: 50px;
+    margin: auto;
+    display: block;
 }
 
 .gallery-audio {
-    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.gallery-video video {
+    width: 95%;
+    margin: auto;
+    display: block;
+}
+
+.gallery-video {
+    margin-bottom: 15px;
 }
 
 /*-------------------Timeline-----------(Inspiration for timeline design and code came from the User Centric Frontend Development Module)*/
@@ -642,8 +652,8 @@ input::placeholder {
         margin: 0px;
     }
     .tour-button {
-        margin-top: 10px;
-        margin-bottom: 0;
+        margin-top: 15px;
+        margin-bottom: 10px;
     }
     .social-block {
         visibility: hidden;
@@ -657,15 +667,6 @@ input::placeholder {
     }
     .contact-form {
         width: 90%;
-    }
-    .gallery-image {
-        width: auto;
-        margin: auto;
-        display: block;
-    }
-    .gallery-audio {
-        text-align: center;
-        margin-left: 0;
     }
 }
 
