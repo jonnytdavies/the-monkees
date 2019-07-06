@@ -629,7 +629,12 @@ input::placeholder {
     .tour-button {
         margin-bottom: 0;
     }
+}
 
+@media(max-width: 565px) {
+    .contact-form {
+        width: 100%!important;
+    }
 }
 
 @media(max-width: 767px) {
@@ -650,7 +655,18 @@ input::placeholder {
     form {
         width: 100%;
     }
-
+    .contact-form {
+        width: 90%;
+    }
+    .gallery-image {
+        width: auto;
+        margin: auto;
+        display: block;
+    }
+    .gallery-audio {
+        text-align: center;
+        margin-left: 0;
+    }
 }
 
 @media(min-width: 768px) {
@@ -696,6 +712,9 @@ input::placeholder {
     .menuitem {
         text-align: center;
     }
+    .contact-form {
+        width: 80%;
+    }
 }
 
 
@@ -704,5 +723,4 @@ input::placeholder {
         display: block;
         width: 100%;
     }
-
 }
