@@ -66,7 +66,7 @@ header {
 }
 
 #nav {
-    margin: 0;
+    margin-bottom: 5px;
 }
 
 #nav li {
@@ -85,17 +85,28 @@ header {
     text-decoration: none;
     color: #F62F2F;
     display: inline-block;
+    padding: 5px;
 }
 
 
 .menuitem span {
     display: inline-block;
     width: 100%;
-    padding-top: 5px;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 1px;
+}
+
+.active-page {
+    box-shadow: #f62f2f 0px 0px 5px 1px;
+    border-radius: 10px;
+}
+
+.active-tour-button {
+    box-shadow: #f62f2f 0px 0px 5px 1px;
+    border-radius: 10px;
+    white-space: nowrap;
 }
 
 /*-------------------------------Contact Page*/
@@ -179,7 +190,6 @@ form {
     background-color: rgba(246, 47, 47, 1);
     color: #FFFDE8;
     padding: 10px;
-    margin-bottom: -15px;
     border-radius: 5px;
     text-align: center;
 }
@@ -686,7 +696,7 @@ input::placeholder {
 
 @media(min-width: 768px) {
     .tour-button {
-        margin-top: -11px;
+        margin-top: -1px;
     }
     .social-block {
         visibility: visible;
