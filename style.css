@@ -343,6 +343,7 @@ form {
 
 .tour-box {
     background-color: #F62F2F;
+    padding-top: 10px;
 }
 
 .timeline-item {
@@ -426,7 +427,7 @@ form {
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
-    border-style: dashed;
+    border-style: solid;
 }
 
 .book-now-button:hover,
