@@ -47,8 +47,7 @@ img {
 /*---------------------------------header*/
 
 header {
-    margin: 10px;
-    position: relative;
+    margin-bottom: 5px;
 }
 
 .logo {
@@ -99,14 +98,17 @@ header {
 }
 
 .active-page {
-    box-shadow: #f62f2f 0px 0px 5px 1px;
-    border-radius: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
 }
 
 .active-tour-button {
-    box-shadow: #f62f2f 0px 0px 5px 1px;
-    border-radius: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
     white-space: nowrap;
+    margin-top: -1px;
 }
 
 /*-------------------------------Contact Page*/
@@ -661,7 +663,8 @@ input::placeholder {
     .menuitem {
         margin: 0px;
     }
-    .tour-button {
+    .tour-button,
+    .active-tour-button {
         margin-top: 15px;
         margin-bottom: 10px;
     }
