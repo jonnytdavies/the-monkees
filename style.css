@@ -347,7 +347,7 @@ form {
 }
 
 .timeline-item {
-    padding: 4em 2em 0em 2em;
+    padding: 50px 0px 0px 30px;
     position: relative;
     color: #FFFDE8;
     border-left: 1px solid;
@@ -362,12 +362,12 @@ form {
 .timeline-item::before {
     content: attr(dates);
     position: absolute;
-    left: 2.5em;
-    top: 3em;
+    left: 15px;
+    top: 30px;
     display: block;
     font-family: "Monoton", sans-serif;
     font-weight: 500;
-    font-size: .8em;
+    font-size: 14px;
     padding: 0;
     margin: 0;
 }
@@ -376,7 +376,7 @@ form {
     width: 12px;
     height: 12px;
     display: block;
-    top: 2.4em;
+    top: 31px;
     position: absolute;
     left: -6px;
     border-radius: 30% 90% 30% 90% / 30% 90% 30% 90%;
@@ -386,8 +386,8 @@ form {
 
 .tour-dates-heading {
     color: #FFFDE8;
-    margin-bottom: 10px;
     text-align: center;
+    margin-bottom: -30px;
 }
 
 .tour-items {
@@ -403,7 +403,7 @@ form {
 }
 
 .tour-details {
-    margin: 25px;
+    padding: 10px;
 }
 
 /*---------------------------------------Book Now Button*/
@@ -411,7 +411,6 @@ form {
 .book-now-button {
     margin-top: 50px;
     margin-bottom: 0;
-    padding: 10px;
     display: inline-block;
     width: auto;
     text-align: center;
@@ -515,9 +514,6 @@ footer,
 /*--------------------------Tour Contact Button---*/
 
 .tour-contact-button {
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     display: inline-block;
     width: auto;
     height: 100%;
@@ -680,6 +676,54 @@ input::placeholder {
 
 /*------------------------------Media Queries*/
 
+@media (max-width: 384px) {
+   
+    .tour-box {
+        padding-top: 0;
+    }
+
+    .timeline-item {
+        text-align: center;
+        border-left: 0;
+        padding: 10px;
+        background-color: #fffde8;
+        color: #f52f2f;
+        border-radius: 25px;
+    }
+
+    .timeline-item::before {
+        position: static;
+    }
+
+    .timeline-item::after {
+        display: none;
+    }
+    
+    .tour-location {
+        font-size: 20px;
+    }
+    
+    .arena-name {
+        font-size: 16px;
+    }
+
+    .book-now-button {
+        margin-top: 10px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .tour-contact {
+        margin-top: -40px;
+    }
+}
+
+@media(max-width: 410px) {
+    .tour-contact-button {
+        font-size: 9px;
+    }
+}
+
 @media(min-width: 565px) {
     .tour-button {
         margin-bottom: 0;
@@ -753,11 +797,11 @@ input::placeholder {
         font-size: 18px;
     }
     .tour-location {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .arena-name {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
@@ -786,5 +830,222 @@ input::placeholder {
     .footer-email {
         display: block;
         width: 100%;
+    }
+}
+
+/* Below code taken from: https://stackoverflow.com/questions/24066059/bootstrap-3-adding-a-new-set-of-columns */
+
+.col-xxs-1,
+.col-xxs-2,
+.col-xxs-3,
+.col-xxs-4,
+.col-xxs-5,
+.col-xxs-6,
+.col-xxs-7,
+.col-xxs-8,
+.col-xxs-9,
+.col-xxs-10,
+.col-xxs-11,
+.col-xxs-12 {
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+@media (max-width: 384px) {
+
+    .col-xxs-1,
+    .col-xxs-2,
+    .col-xxs-3,
+    .col-xxs-4,
+    .col-xxs-5,
+    .col-xxs-6,
+    .col-xxs-7,
+    .col-xxs-8,
+    .col-xxs-9,
+    .col-xxs-10,
+    .col-xxs-11 {
+        float: left;
+    }
+
+    .col-xxs-1 {
+        width: 8.333333333333332%;
+    }
+
+    .col-xxs-2 {
+        width: 16.666666666666664%;
+    }
+
+    .col-xxs-3 {
+        width: 25%;
+    }
+
+    .col-xxs-4 {
+        width: 33.33333333333333%;
+    }
+
+    .col-xxs-5 {
+        width: 41.66666666666667%;
+    }
+
+    .col-xxs-6 {
+        width: 50%;
+    }
+
+    .col-xxs-7 {
+        width: 58.333333333333336%;
+    }
+
+    .col-xxs-8 {
+        width: 66.66666666666666%;
+    }
+
+    .col-xxs-9 {
+        width: 75%;
+    }
+
+    .col-xxs-10 {
+        width: 83.33333333333334%;
+    }
+
+    .col-xxs-11 {
+        width: 91.66666666666666%;
+    }
+
+    .col-xxs-12 {
+        width: 100%;
+    }
+
+    .col-xxs-push-1 {
+        left: 8.333333333333332%;
+    }
+
+    .col-xxs-push-2 {
+        left: 16.666666666666664%;
+    }
+
+    .col-xxs-push-3 {
+        left: 25%;
+    }
+
+    .col-xss-push-4 {
+        left: 33.33333333333333%;
+    }
+
+    .col-xxs-push-5 {
+        left: 41.66666666666667%;
+    }
+
+    .col-xxs-push-6 {
+        left: 50%;
+    }
+
+    .col-xxs-push-7 {
+        left: 58.333333333333336%;
+    }
+
+    .col-xxs-push-8 {
+        left: 66.66666666666666%;
+    }
+
+    .col-xxs-push-9 {
+        left: 75%;
+    }
+
+    .col-xxs-push-10 {
+        left: 83.33333333333334%;
+    }
+
+    .col-xxs-push-11 {
+        left: 91.66666666666666%;
+    }
+
+    .col-xxs-pull-1 {
+        right: 8.333333333333332%;
+    }
+
+    .col-xxs-pull-2 {
+        right: 16.666666666666664%;
+    }
+
+    .col-xxs-pull-3 {
+        right: 25%;
+    }
+
+    .col-xxs-pull-4 {
+        right: 33.33333333333333%;
+    }
+
+    .col-xxs-pull-5 {
+        right: 41.66666666666667%;
+    }
+
+    .col-xxs-pull-6 {
+        right: 50%;
+    }
+
+    .col-xxs-pull-7 {
+        right: 58.333333333333336%;
+    }
+
+    .col-xxs-pull-8 {
+        right: 66.66666666666666%;
+    }
+
+    .col-xxs-pull-9 {
+        right: 75%;
+    }
+
+    .col-xxs-pull-10 {
+        right: 83.33333333333334%;
+    }
+
+    .col-xxs-pull-11 {
+        right: 91.66666666666666%;
+    }
+
+    .col-xxs-offset-1 {
+        margin-left: 8.333333333333332%;
+    }
+
+    .col-xxs-offset-2 {
+        margin-left: 16.666666666666664%;
+    }
+
+    .col-xxs-offset-3 {
+        margin-left: 25%;
+    }
+
+    .col-xxs-offset-4 {
+        margin-left: 33.33333333333333%;
+    }
+
+    .col-xxs-offset-5 {
+        margin-left: 41.66666666666667%;
+    }
+
+    .col-xxs-offset-6 {
+        margin-left: 50%;
+    }
+
+    .col-xxs-offset-7 {
+        margin-left: 58.333333333333336%;
+    }
+
+    .col-xxs-offset-8 {
+        margin-left: 66.66666666666666%;
+    }
+
+    .col-xxs-offset-9 {
+        margin-left: 75%;
+    }
+
+    .col-xxs-offset-10 {
+        margin-left: 83.33333333333334%;
+    }
+
+    .col-xxs-offset-11 {
+        margin-left: 91.66666666666666%;
     }
 }
