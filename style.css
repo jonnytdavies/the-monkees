@@ -716,6 +716,11 @@ input::placeholder {
     .tour-contact {
         margin-top: -40px;
     }
+    
+    .tour-contact-button {
+        display: block;
+        white-space: inherit;
+    }
 }
 
 @media(max-width: 410px) {
