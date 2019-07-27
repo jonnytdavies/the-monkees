@@ -231,10 +231,10 @@ form {
     line-height: 11px;
     text-align: center;
     color: #F62F2F;
-    transition: all 0.45s ease-in-out;
-    -moz-transition: all 0.45s ease-in-out;
-    -webkit-transition: all 0.45s ease-in-out;
-    -o-transition: all 0.45s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -567,10 +567,10 @@ footer,
     line-height: 11px;
     text-align: center;
     color: #F62F2F;
-    transition: all 0.45s ease-in-out;
-    -moz-transition: all 0.45s ease-in-out;
-    -webkit-transition: all 0.45s ease-in-out;
-    -o-transition: all 0.45s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .footer-social-links li a i:hover {
@@ -784,7 +784,7 @@ input::placeholder {
 
 @media(min-width: 768px) {
     .tour-button {
-        margin-top: -1px;
+        margin-top: 0px;
     }
     .social-block {
         visibility: visible;
