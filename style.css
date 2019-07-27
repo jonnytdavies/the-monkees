@@ -141,6 +141,7 @@ form {
     width: 60%;
     margin: auto;
     margin-bottom: 15px;
+    padding-top: 15px;
 }
 
 /* -------- EXTRA CONTACT FORM STYLING LINKED TO 'EMAIL SIGN UP' -----*/
@@ -545,7 +546,7 @@ footer,
 
 .tour-contact {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 /*----------------------------Footer Social Icons------*/
