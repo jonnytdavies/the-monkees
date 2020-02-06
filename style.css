@@ -111,75 +111,6 @@ header {
     margin-top: -1px;
 }
 
-/*-------------------------------Contact Page*/
-
-.contact-page {
-    background-color: #F62F2F;
-    color: #FFFDE8;
-    padding: 15px;
-}
-
-.contact-heading {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-form {
-    background-color: #FFFDE8;
-    color: #F62F2F;
-    border-radius: 10px;
-    width: 100%;
-    margin: auto;
-}
-
-.contact-form {
-    padding: 20px;
-    width: 60%;
-}
-
-.contact-page-sign-up-form {
-    width: 60%;
-    margin: auto;
-    margin-bottom: 15px;
-    padding-top: 15px;
-}
-
-/* -------- EXTRA CONTACT FORM STYLING LINKED TO 'EMAIL SIGN UP' -----*/
-
-/*-------------------------------Tour Dates Button*/
-
-.tour-button {
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    background-color: #F62F2F;
-    color: #FFFDE8!important;
-    transition: 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-}
-
-.tour-button:hover,
-.tour-button:active,
-.tour-button:focus,
-.tour-button:active:focus {
-    background-color: #FFFDE8;
-    border-color: #F62F2F;
-    color: #F62F2F!important;
-    -webkit-box-shadow: 0px 0px 15px 1px rgba(246, 47, 47, 1);
-    -moz-box-shadow: 0px 0px 15px 1px rgba(246, 47, 47, 1);
-    -o-box-shadow: 0px 0px 15px 1px rgba(246, 47, 47, 1);
-    box-shadow: 0px 0px 15px 1px rgba(246, 47, 47, 1);
-    transition: 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-}
-
 
 /*------------------------Header Audio*/
 
@@ -243,6 +174,41 @@ form {
     color: #FFFDE8;
 
 }
+
+/*-------------------------------Contact Page*/
+
+.contact-page {
+    background-color: #F62F2F;
+    color: #FFFDE8;
+    padding: 15px;
+}
+
+.contact-heading {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form {
+    background-color: #FFFDE8;
+    color: #F62F2F;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+.contact-form {
+    padding: 20px;
+    width: 60%;
+}
+
+.contact-page-sign-up-form {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+/* -------- EXTRA CONTACT FORM STYLING LINKED TO 'EMAIL SIGN UP' -----*/
 
 /*-----------------------------------About Page*/
 
@@ -406,6 +372,42 @@ form {
 .tour-details {
     padding: 10px;
 }
+
+
+/*-------------------------------Tour Dates Button*/
+
+.tour-button {
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: #F62F2F;
+    color: #FFFDE8!important;
+    transition: 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.tour-button:hover,
+.tour-button:active,
+.tour-button:focus,
+.tour-button:active:focus {
+    background-color: #FFFDE8;
+    border-color: #F62F2F;
+    color: #F62F2F!important;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(246, 47, 47, 1);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(246, 47, 47, 1);
+    -o-box-shadow: 0px 0px 15px 1px rgba(246, 47, 47, 1);
+    box-shadow: 0px 0px 15px 1px rgba(246, 47, 47, 1);
+    transition: 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
 
 /*---------------------------------------Book Now Button*/
 
