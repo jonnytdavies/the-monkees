@@ -29,12 +29,12 @@ This website is built predominantly for the fans of The Monkees, but also for pe
 ---
 ### **The Monkees Website - UX Brief**
 #### **Strategy:**
-What are you aiming to achieve?
+
 - I am aiming to produce a slick and informative site for fans of ‘The Monkees’
 It will be responsive to all devices and browsers
 
 #### **Scope:**
-What features do you want to include?
+
 - It will showcase:
     1. Music videos, audio and images from the band.
     2. A a short biography of the band, and then individual photos of each member.
@@ -46,7 +46,7 @@ What features do you want to include?
     5. Read information about the band
 
 #### **Structure / Skeleton:**
-How is the information structured, and is it logically grouped?
+
 - The website will include 5 pages:
 1. Home
     - Showcasing the music video for ‘Daydream Believer’
