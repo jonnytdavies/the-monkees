@@ -47,32 +47,32 @@ It will be responsive to all devices and browsers
 
 #### **Structure / Skeleton:**
 
-- The website will include 5 pages:
-1. Home
+- The website will include 5 pages: (Click on the page/element title to view mockups)
+1. [Home](https://github.com/jonnytdavies/the-monkees/blob/66ebffca171ca8b7af9ef2aab4c89f9255a32fa5/mockups/monkees-homepage.jpeg)
     - Showcasing the music video for ‘Daydream Believer’
     - Very simple - not hit with lots of information
-2. About
+2. [About](https://github.com/jonnytdavies/the-monkees/blob/66ebffca171ca8b7af9ef2aab4c89f9255a32fa5/mockups/monkees-about.jpeg)
     - Biography of the band
     - Photos of the band members
-3. Gallery
+3. [Gallery](https://github.com/jonnytdavies/the-monkees/blob/66ebffca171ca8b7af9ef2aab4c89f9255a32fa5/mockups/monkees-gallery.jpeg)
     - Pictures of the band
     - Album artworks
     - Audio tracks of some of the Monkees most iconic songs
     - Music video
-4. Contact
+4. [Contact](https://github.com/jonnytdavies/the-monkees/blob/66ebffca171ca8b7af9ef2aab4c89f9255a32fa5/mockups/monkees-contact.jpeg)
     - Form for users to get in contact with the band, and also make enquiries about hiring the band for private events
-5. Tour Dates
+5. [Tour Dates](https://github.com/jonnytdavies/the-monkees/blob/66ebffca171ca8b7af9ef2aab4c89f9255a32fa5/mockups/monkees-tour-dates.jpeg)
     - A timeline with some of the Monkees tour dates, with functional buttons to book tickets to real Monkees concerts.
 
 ***The website will have the same header and footer on every page***
 
-- Header will include:
+- [Header](https://github.com/jonnytdavies/the-monkees/blob/66ebffca171ca8b7af9ef2aab4c89f9255a32fa5/mockups/monkees-header.jpeg) will include:
     - Monkees Logo
     - Menu of every page in the website
     - Social media icons and links for facebook, twitter and youtube (on desktop only, on tablet devices and smaller, these icons will appear in the footer, so the header isn’t too cluttered)
     - An audio track
 
-- Footer will include:
+- [Footer](https://github.com/jonnytdavies/the-monkees/blob/66ebffca171ca8b7af9ef2aab4c89f9255a32fa5/mockups/monkees-footer.jpeg) will include:
     - Contact us button, that links to the ‘Contact’ page
     - A newsletter sign up box
     - On tablet devices and smaller, the social icons, which on desktop appear in the header will appear here, in the footer.
