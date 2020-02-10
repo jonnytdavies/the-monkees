@@ -1,5 +1,7 @@
 # **The Monkees - Code Institute Milestone Project 1**
 
+For quick access, the website can be found at this link: https://jonnytdavies.github.io/the-monkees/
+
 ## The Monkees Band Website
 This project is a new design concept for the band ‘The Monkees’. It is built for their fans, and showcases some of their greatest hits, information about the band, and the ability to contact the band for private bookings and all other enquiries. The website includes the Band’s tour dates, and allows fans to sign up for a newsletter so they can stay up to date with their favourite band.
 
@@ -146,7 +148,10 @@ Using the chrome inspector tool, I tested different screen sizes, to see how the
 ---
 
 ### **Deployment**
-- TBC
+- I have used GitHub Pages to deploy my website, and it can be found at this link: https://jonnytdavies.github.io/the-monkees/
+    - I managed to do this very simply through the settings on my GitHub repository for this project.
+    - So far, from testing my site via GitHub Pages I cannot notice a difference compared to how it was running during development.
+- To run the code locally, download the code from this repository to your machine, and select the option to open it in the browser.
 
 ---
 
